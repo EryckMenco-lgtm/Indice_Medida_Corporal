@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    transition: all 0.3s ease;
 }
 
 body {
@@ -11,50 +12,60 @@ body {
     display: flex;
     flex-direction: column;
     color: #eee;
-    background-color: #222;
+    background-color: #0f0f0f;
 }
 
 .contenedor {
     margin:auto;
+    margin-top: 38px;
     padding: 15px;
-    background-color: transparent;
     width: 500px;
-    margin-top: 50px;
+    background-color: #1c1c1c;
     border-radius: 20px;
     box-shadow: 0 0 55px 0 rgba(185, 185, 185, 0.6);
 }
 
 h1 {
-    padding: 25px;
+    padding: 20px;
     text-align: center;
 }
 
 img {
     width: 100%;
-    background-color: #eeeeee6a;
-    border-radius: 40px;
-    border: 5px groove #e0dede;
+    max-height: 300px;
+    object-fit: cover;
+    background-color: #eaeaea;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 25px 0 rgba(185, 185, 185, 0.6);
+}
+
+.Resultado {
+    padding: 6px;
+    text-align: center;
 }
 
 .coninput {
     text-align: center;
 }
 
-.Resultado {
+input {
+    padding: 6px 12px;
+    width: 50%;
+    margin: 10px;
     text-align: center;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 15px  #0003; 
+    color: #eee;
+    border-left: 2px solid rgba(255,255,255,0.3);
+    border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
-input {
-    text-align: center;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 6px 12px;
-    background-color: transparent;
-    margin: 10px;
-    border: none;
-    border-left: 3px solid #fff2;
-    box-shadow: 0 0 15px 0 #0003; 
-    color: #eee;
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #4facfe;
+    border-left: 2px solid #4facfe; 
 }
 
 .boton {
@@ -63,19 +74,41 @@ input {
 }
 
 button {
-    padding: 12px;
+      background: linear-gradient(145deg, #2b2b2b, #1a1a1a);
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.1);
+
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  box-shadow: 
+    0 5px 15px rgba(0,0,0,0.7),
+    0 0 10px rgba(255,255,255,0.1);
+
+  transition: all 0.3s ease;
+    /* padding: 12px;
     border: none;
     border-radius: 8px;
     background: #667eea;
     color: white;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s; */
 }
 
 button:hover {
-background: #212c8f;
-transform: scale(1.05);
+      transform: scale(1.05);
+
+  background: linear-gradient(145deg, #3a3a3a, #222);
+
+  box-shadow: 
+    0 10px 25px rgba(0,0,0,0.9),
+    0 0 20px rgba(255,255,255,0.3);
+
+  border: 1px solid rgba(255,255,255,0.3);
+/* background: #212c8f;
+transform: scale(1.05); */
 }
 
 footer {
