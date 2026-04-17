@@ -13,12 +13,13 @@ body {
     flex-direction: column;
     color: #eee;
     background-color: #0f0f0f;
+    cursor: url("./favicon/cursor.cur") auto;
 }
 
 .contenedor {
     margin:auto;
     margin-top: 38px;
-    padding: 15px;
+    padding: 20px;
     width: 500px;
     background-color: #1c1c1c;
     border-radius: 20px;
@@ -51,21 +52,23 @@ img {
 
 input {
     padding: 6px 12px;
+    font-family: fantasy;
     width: 50%;
     margin: 10px;
     text-align: center;
     background-color: transparent;
     border: none;
-    box-shadow: 0 0 15px  #0003; 
     color: #eee;
-    border-left: 2px solid rgba(255,255,255,0.3);
-    border-bottom: 2px solid rgba(255,255,255,0.3);
+    box-shadow: 0 0 12px 0 #9bd0ff52; 
+    border-radius: 5px;
+    border-left: 3px solid rgba(255,255,255,0.3);
+    border-bottom: 3px solid rgba(255,255,255,0.3);
 }
 
 input:focus {
     outline: none;
-    border-bottom: 2px solid #4facfe;
-    border-left: 2px solid #4facfe; 
+    border-bottom: 3px solid #4facfe;
+    border-left: 3px solid #4facfe; 
 }
 
 .boton {
