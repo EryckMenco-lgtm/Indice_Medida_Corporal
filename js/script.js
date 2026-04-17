@@ -12,7 +12,6 @@ function indice(){
       let resultadoDeInput=0
       let mPeso=parseFloat(pesoConst.value)
       let mAltura=parseFloat(alturaConst.value)
-
       if (mAltura==0 || mPeso==0){
          alert("Debes darle valor a los valores")
          return
