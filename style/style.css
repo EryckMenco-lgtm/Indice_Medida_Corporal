@@ -106,9 +106,11 @@ button:hover {
 footer {
     height: 100%;
     margin-top: auto;
-    background: #222;
-    color: rgb(226, 225, 225);
     text-align: center;
-    padding: 15px;
+    background: #222;
     box-shadow: 0 0 20px 0 rgba(194, 194, 194, 0.2); 
+}
+footer p {
+    padding: 15px;
+    color: rgb(226, 225, 225);
 }
