@@ -22,39 +22,27 @@ function indice(){
       if(resultadoDeInput <=16){
          Imagen.src="img/Peso muy Bajo.png"
          Descripcion.innerText="Tu Peso Es Muy Bajo"
+         Imagen.style.backgroundColor = "#3A8FD3"
       }else if(resultadoDeInput<=18.5){
          Imagen.src="img/Peso bajo.png"
          Descripcion.innerText="Estas Bajo de Peso"
+         Imagen.style.backgroundColor = "#6ED3F5"
       }else if(resultadoDeInput<=24.9){
          Imagen.src="img/Peso optimo.png"
          Descripcion.innerText="Estas En Peso Optimo"
+         Imagen.style.backgroundColor = "#6CC04A"
       }else if(resultadoDeInput<=29.9){
          Imagen.src="img/Sobre peso.png"
          Descripcion.innerText="Estas En Sobre peso"
+         Imagen.style.backgroundColor = "#F4E04D"
       }else if(resultadoDeInput<=34.9){
          Imagen.src="img/Obeso.png"
          Descripcion.innerText="Estas Obeso"
+         Imagen.style.backgroundColor = "#F28C38"
       }else {
          Imagen.src="img/Muy Obeso.png"
          Descripcion.innerText="Estas Muy Obeso"
+         Imagen.style.backgroundColor = "#E53935"
       }
    }
 }
-
-function cambiarColor() {
-      if(resultadoDeInput <=16){
-         document.body.classList.toggle("Color1")
-      }else if(resultadoDeInput<=18.5){
-         document.body.classList.toggle("Color2")
-      }else if(resultadoDeInput<=24.9){
-         document.body.classList.toggle("Color3")
-      }else if(resultadoDeInput<=29.9){
-         document.body.classList.toggle("Color4")
-      }else if(resultadoDeInput<=34.9){
-         document.body.classList.toggle("Color5")
-      }else {
-         document.body.classList.toggle("Color6")
-      }
-}
-
-Resultado.addEventListener("click", cambiarColor);

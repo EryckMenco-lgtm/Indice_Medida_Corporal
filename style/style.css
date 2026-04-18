@@ -44,6 +44,7 @@ img {
     padding: 20px;
     box-shadow: 0 0 25px 0 rgba(185, 185, 185, 0.6);
     object-fit: cover;
+    transform: scale(1.02);
 }
 
 .Resultado {
@@ -114,28 +115,4 @@ footer p {
     color: rgb(226, 225, 225);
 }
 
-/* Cambio de color con los resultados */
-.color1 img {
-    background-color: #3A8FD3;
-    transform: scale(1.02);
-}
-.color2 img {
-    background-color: #6ED3F5;
-    transform: scale(1.02);
-}
-.color3 img {
-    background-color: #6CC04A;
-    transform: scale(1.02);
-}
-.color4 img {
-    background-color: #F4E04D;
-    transform: scale(1.02);
-}
-.color5 img {
-    background-color: #F28C38;
-    transform: scale(1.02);
-}
-.color6 img {
-    background-color: #E53935;
-    transform: scale(1.02);
-}
+
