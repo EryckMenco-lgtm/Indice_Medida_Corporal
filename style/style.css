@@ -17,7 +17,7 @@ body {
 
 .contenedor {
     margin:auto;
-    margin-top: 38px;
+    margin-top: 25px;
     padding: 20px;
     width: 100%;
     max-width: 500px;
@@ -106,6 +106,7 @@ button:hover {
 
 footer {
     margin-top: auto;
+    margin-top: 10px;
     text-align: center;
     background: #222;
     box-shadow: 0 0 20px 0 rgba(194, 194, 194, 0.2); 
@@ -114,5 +115,7 @@ footer p {
     padding: 15px;
     color: rgb(226, 225, 225);
 }
+
+
 
 
